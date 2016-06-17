@@ -1,15 +1,15 @@
 body{
 	font-size: 16px;
 	color:#fff;
-	background-color: #61122f;
+	background-color: black;
 	font-family: 'Oxygen', sans-serif;
 }
 #header-nav{
-	background-color: #f6b319;
+	background-color: purple;
 	border-radius: 0;
 	border: 0;
 }
-h1{
+.navbar-header h1{
 	font-weight: bolder;
 	color: blue;
 	text-shadow: 0px 2px 2px  black;
@@ -26,7 +26,7 @@ h2{
 	position: relative;
 }
 #nav-list a {
-  color: #951C49;
+  color: yellow;
   text-align: center;
 }
 #nav-list a:hover {
@@ -38,4 +38,29 @@ h2{
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar
 {
 	border: 1px solid #61122f;
+}
+.container{
+	margin: auto;
+	margin-bottom: 25px;
+}
+.chicken{
+	text-align: center;
+}
+.Beef{
+	text-align: center;
+}
+.Sushi{
+	text-align: center;
+}
+.chick{
+	background-color: grey;
+	border: 2px solid yellow;
+}
+.bee{
+	background-color: grey;
+	border: 2px solid yellow;
+}
+.shush{
+	background-color: grey;
+	border: 2px solid yellow;
 }
