@@ -14,7 +14,7 @@
 		<nav id="header-nav" class="navbar navbar-default">
 		<div class="container" >
 			<div class="navbar-header"> <h1>Food, LLC </h1>
-
+				::before
 
 			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#colapsable-nav" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -23,9 +23,9 @@
         <span class="icon-bar"></span>
       </button>
       </div>
-      <div id="collapsable-nav" class="navbar-collapse collapse scrol" aria-expanded="true">
-
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
+      <div class="navbar-collapse collapse in" id="collapsable-nav" aria-expanded="true">
+		::before
+           <ul id="nav-list" class="nav navbar-nav text-center">
             <li>
               <a href="#chicken">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Chicken</a>
@@ -38,7 +38,9 @@
               <a href="#Sushi">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Shushi</a>
             </li>
+            ::after
            </ul><!-- #nav-list -->
+           ::after
         </div>
       </div>
 		</nav>
