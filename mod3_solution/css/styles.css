@@ -45,6 +45,7 @@ h2{
 .container{
 	margin: auto;
 	margin-bottom: 25px;
+	overflow:scroll;
 }
 .chicken{
 	text-align: center;
