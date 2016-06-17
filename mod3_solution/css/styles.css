@@ -37,10 +37,12 @@ h2{
 #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
      }
-   .scrol{
+     .navbar-collapse.in{
+     	overflow-y=auto;
+     }
+   .collapse.in{
    	 display:block;
-   	 overflow-y=auto;
-   }
+   	    }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
