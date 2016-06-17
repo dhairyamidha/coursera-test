@@ -60,6 +60,7 @@ h2{
 	background-color: grey;
 	border: 2px solid yellow;
 	overflow:scroll;
+	height:100px;
 }
 .bee{
 	background-color: grey;
