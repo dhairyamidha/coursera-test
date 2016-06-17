@@ -45,7 +45,7 @@ h2{
 .container{
 	margin: auto;
 	margin-bottom: 25px;
-	overflow:scroll;
+	
 }
 .chicken{
 	text-align: center;
@@ -59,12 +59,15 @@ h2{
 .chick{
 	background-color: grey;
 	border: 2px solid yellow;
+	overflow:scroll;
 }
 .bee{
 	background-color: grey;
 	border: 2px solid yellow;
+	overflow:scroll;
 }
 .shush{
 	background-color: grey;
 	border: 2px solid yellow;
+	overflow:scroll;
 }
