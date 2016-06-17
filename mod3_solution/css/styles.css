@@ -35,6 +35,24 @@ h2{
 #nav-list a span {
   font-size: 1.8em;
 }
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar
 {
 	border: 1px solid yellow;
