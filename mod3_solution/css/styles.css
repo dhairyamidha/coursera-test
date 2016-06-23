@@ -17,7 +17,6 @@ body{
 	position: relative;
 }
 h2{
-	text-align: center;
 	color:yellow;
 	width: auto;
 	height: auto;
@@ -35,6 +34,19 @@ h2{
 #nav-list a span {
   font-size: 1.8em;
 }
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+     }
+     .navbar-collapse.in{
+     	overflow-y=auto;
+     }
+   .collapse.in{
+   	 display:block;
+   	    }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar
 {
 	border: 1px solid yellow;
@@ -45,6 +57,7 @@ h2{
 .container{
 	margin: auto;
 	margin-bottom: 25px;
+	
 }
 .chicken{
 	text-align: center;
@@ -58,12 +71,18 @@ h2{
 .chick{
 	background-color: grey;
 	border: 2px solid yellow;
+	overflow:scroll;
+	height:150px;
 }
 .bee{
 	background-color: grey;
 	border: 2px solid yellow;
+	overflow:scroll;
+	height:150px;
 }
 .shush{
 	background-color: grey;
 	border: 2px solid yellow;
+	overflow:scroll;
+	height:150px;
 }
